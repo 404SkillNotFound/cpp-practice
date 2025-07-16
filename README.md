@@ -1,19 +1,18 @@
 # C++ Practice
 
-Personal log of C++ learning and problem-solving.
+This repo contains basic to intermediate C++ codes written during my learning.
 
-Just writing clean code to build strong fundamentals.  
-No noise. No shortcuts. Just practice.
+### 📂 Folder Structure
 
----
+- basics/ – Syntax, datatypes, loops, functions  
+- oops/ – Classes, constructors, inheritance, etc.  
+- patterns/ – Pattern printing  
+- practice/ – Miscellaneous practice codes
 
-## 🧱 What's Inside
+### ✅ Progress
+- [x] Variables and I/O
+- [x] Loops and conditionals
+- [ ] STL
+- [ ] File handling
 
-- Basic syntax and control flow
-- Functions, arrays, pointers
-- OOP: classes, inheritance, etc.
-- STL (Standard Template Library)
-- Practice files by topic
-
----
-
+> Codes are raw, not over-commented — this is a learning log for myself.
