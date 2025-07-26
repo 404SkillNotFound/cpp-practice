@@ -7,7 +7,8 @@ void doPrint() {
   }
   int main() {
     cout<<"Starting main"<<endl; // Interrupt main() by making a function call to doPrint().  main() is the caller.
-    doPrint(); // This statement is executed after doPrint() ends
+    doPrint();
+    cout << "Ending main()\n";   // This statement is executed after doPrint() ends
 
     return 0;
 
