@@ -44,3 +44,15 @@ int main()
   return 0;
 } */
 
+/*#include <iostream>
+using namespace std;
+
+int main() {
+  cout<<"Enter a number:"<<endl;
+  int num{};
+  cin>>num;
+
+  cout<<"the double of "<<num<<" is:"<<num*2<<endl;
+}*/
+
+
