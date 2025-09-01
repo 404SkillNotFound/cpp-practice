@@ -1,13 +1,19 @@
 
-#include "p_01.h"
+
 #include <iostream>
 using namespace std;
-int main() {
-  for (int i = 1; i <= 4; i++) {
-    for (int j = 1; j <= 4; j++) {
-      cout<<"x ";
+void p_01(int n) {
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= 4; j++) {
+            cout<<"x ";
 
+        }
+        cout<<endl;
     }
-    cout<<endl;
-  }
+}
+int main() {
+    int n;
+    cin>>n;
+    p_01(n);
+
 }
