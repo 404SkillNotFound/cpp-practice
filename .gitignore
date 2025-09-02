@@ -1,0 +1,16 @@
+# JetBrains IDE (CLion) specific files
+/.idea/
+
+# CMake build files
+/cmake-build-debug/
+
+# Compiled executable files
+*.exe
+
+# Compiled object files
+*.o
+*.obj
+
+# Other common build outputs
+*.out
+*.dll
