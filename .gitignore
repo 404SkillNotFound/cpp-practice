@@ -14,3 +14,13 @@
 # Other common build outputs
 *.out
 *.dll
+# IDE and editor specific files
+.idea/
+.vscode/
+
+# Build directory from CLion/CMake
+cmake-build-debug/
+
+# Compiled files and executables
+
+CMakeLists.txt
