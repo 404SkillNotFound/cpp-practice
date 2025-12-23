@@ -1,19 +1,26 @@
-// parsing:to extract meaningful data 
-#include <sstream>
+#include <cmath>
+#include <cstdio>
 #include <vector>
 #include <iostream>
+#include <algorithm>
+#include <sstream>
 using namespace std;
 
-vector<int> parseInts(string str) {
-    cout<<"check"
-}
 
 int main() {
-    string str;
-    cin >> str;
-    vector<int> integers = parseInts(str);
-    for(int i = 0; i < integers.size(); i++) {
-        cout << integers[i] << "\n";
+    string s;
+    cin >> s;
+    stringstream ss(s);
+    char ch;
+    int a;
+
+    while (true) {
+        ch = '0';
+        ss >> a >> ch;
+        cout << a << endl;
+        if (ch != ',') {
+            break;
+        }
     }
 
     return 0;
