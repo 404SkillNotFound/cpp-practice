@@ -28,3 +28,6 @@ int main()
 
   return 0;
 }
+//Const static local variables are generally okay to use.
+
+//Non-const static local variables should generally be avoided. If you do use them, ensure the variable never needs to be reset, and isn’t used to alter program flow.
